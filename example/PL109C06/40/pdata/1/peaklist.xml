@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList modified="2015-12-21T13:16:26">
+  <PeakList1D>
+    <PeakList1DHeader creator="samsung4" date="2015-12-21T13:16:26" expNo="40" name="PL109C06" owner="" procNo="1" source="C:\Bruker\TopSpin3.1\Fragment library">
+      <PeakPickDetails>F1=7.832ppm, F2=2.029ppm, MI=1.11cm, MAXI=18.78cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="7.1873" intensity="1.18" type="0"/>
+    <Peak1D F1="7.1731" intensity="1.21" type="0"/>
+    <Peak1D F1="7.0269" intensity="1.12" type="0"/>
+    <Peak1D F1="6.8192" intensity="1.80" type="0"/>
+    <Peak1D F1="6.8073" intensity="1.83" type="0"/>
+    <Peak1D F1="5.9139" intensity="15.00" type="0"/>
+    <Peak1D F1="2.5024" intensity="10.53" type="0"/>
+    <Peak1D F1="2.4999" intensity="14.07" type="0"/>
+    <Peak1D F1="2.4973" intensity="10.06" type="0"/>
+  </PeakList1D>
+</PeakList>

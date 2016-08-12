@@ -1,0 +1,56 @@
+
+Current Data Parameters
+NAME           PL109C06              
+EXPNO                40              
+PROCNO                1              
+
+F2 - Acquisition Parameters
+Date_          20150830              
+Time              11.22              
+INSTRUM           spect              
+PROBHD   5 mm CPTCI 1H-              
+PULPROG          zgesgp              
+TD                32768              
+SOLVENT             D2O              
+NS                   32              
+DS                    8              
+SWH            9803.922 Hz           
+FIDRES         0.299192 Hz           
+AQ            1.6711680 sec          
+RG                  256              
+DW               51.000 usec         
+DE                14.00 usec         
+TE                298.2 K            
+D1           1.00000000 sec          
+D12          0.00002000 sec          
+D16          0.00020000 sec          
+TD0                   1              
+
+======== CHANNEL f1 ========
+SFO1        700.4032940 MHz          
+NUC1                 1H              
+P1                 8.94 usec         
+P2                17.88 usec         
+P12             2000.00 usec         
+PLW0     0 W            
+PLW1        10.00000000 W            
+SPNAM[1]   Squa100.1000              
+SPOAL1            0.500              
+SPOFFS1  0 Hz           
+SPW1         0.00049000 W            
+
+====== GRADIENT CHANNEL =====
+GPNAM[1]     SMSQ10.100              
+GPNAM[2]     SMSQ10.100              
+GPZ1              31.00 %            
+GPZ2              11.00 %            
+P16             1000.00 usec         
+
+F2 - Processing parameters
+SI                32768              
+SF          700.4000765 MHz          
+WDW                  EM              
+SSB      0              
+LB                 0.30 Hz           
+GB       0              
+PC                 1.00              

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList modified="2015-12-21T13:11:43">
+  <PeakList1D>
+    <PeakList1DHeader creator="samsung4" date="2015-12-21T13:11:43" expNo="80" name="PL109A06" owner="" procNo="1" source="C:\Bruker\TopSpin3.1\Fragment library">
+      <PeakPickDetails>F1=8.391ppm, F2=7.430ppm, MI=0.98cm, MAXI=5.67cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="8.2346" intensity="3.85" type="0"/>
+    <Peak1D F1="7.6897" intensity="1.38" type="0"/>
+    <Peak1D F1="7.6784" intensity="3.27" type="0"/>
+    <Peak1D F1="7.6631" intensity="2.69" type="0"/>
+    <Peak1D F1="7.6521" intensity="1.11" type="0"/>
+  </PeakList1D>
+  <PeakList1D>
+    <PeakList1DHeader creator="samsung4" date="2015-12-21T13:11:43" expNo="80" name="PL109A06" owner="" procNo="1" source="C:\Bruker\TopSpin3.1\Fragment library">
+      <PeakPickDetails>F1=2.892ppm, F2=0.480ppm, MI=1.42cm, MAXI=17.98cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="2.5448" intensity="2.89" type="0"/>
+    <Peak1D F1="2.5333" intensity="5.01" type="0"/>
+    <Peak1D F1="2.5218" intensity="3.28" type="0"/>
+    <Peak1D F1="2.5025" intensity="11.06" type="0"/>
+    <Peak1D F1="2.4999" intensity="15.00" type="0"/>
+    <Peak1D F1="2.4973" intensity="10.76" type="0"/>
+    <Peak1D F1="1.4561" intensity="2.93" type="0"/>
+    <Peak1D F1="1.4447" intensity="4.81" type="0"/>
+    <Peak1D F1="1.4336" intensity="2.98" type="0"/>
+    <Peak1D F1="1.1578" intensity="2.15" type="0"/>
+    <Peak1D F1="1.1467" intensity="3.57" type="0"/>
+    <Peak1D F1="1.1356" intensity="3.41" type="0"/>
+    <Peak1D F1="1.1247" intensity="1.80" type="0"/>
+    <Peak1D F1="0.7250" intensity="6.71" type="0"/>
+    <Peak1D F1="0.7142" intensity="14.95" type="0"/>
+    <Peak1D F1="0.7033" intensity="7.52" type="0"/>
+  </PeakList1D>
+</PeakList>

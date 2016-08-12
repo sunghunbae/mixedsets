@@ -1,0 +1,9 @@
+   Current data set:
+   NAME =	PL109C06	EXPNO =	40	PROCNO = 1
+   DU   =	C:/Bruker/TopSpin3.1/Fragment library
+
+   Number   Integrated Region     Integral
+     1      7.213      7.148         0.56650
+     2      7.048      7.008         0.27296
+     3      6.836      6.789         0.50167
+     4      5.946      5.890         2.00000

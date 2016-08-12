@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= guest
+$$ 2015-08-21 17:46:49.669 +0900  guest@nmr700
+$$ /opt/topspin3.2/prog/curdir/changer/inmrchanger/Aug21-2015-1746-guest/1/data/nmr/PL105A02/10/pdata/1/outd
+$$ process /opt/topspin3.2/prog/mod/xwish3
+##$CURPLOT= <printer>
+##$CURPRIN= <$printer>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_H.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=
