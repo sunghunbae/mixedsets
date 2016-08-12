@@ -30,6 +30,9 @@ MixedSets calculates a series of mixed sets of molecules based on their NMR chem
    [ threshold to cluster (--cluster):  0.300 ppm]
    [ max number of molecules in a cluster: 10]
 
+## Note
+It is designed for Bruker NMR data directories.
+
 ## Example
 ```python mixedsets.py example/```
 
