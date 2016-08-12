@@ -2,10 +2,10 @@
 Building a series of mixed sets of molecules based on their NMR chemical shifts.
 Mixedsets use quality threshold clustering algorithm to cluster NMR chemical shifts dataset in order to resolve chemical shift overlap problem when you mix multiple compounds in a single NMR tube in a library screen.
 
-# usage 
+## Usage 
 python mixedsets.py [-h] [--merge MERGE(default:0.01)] [--remove REMOVE(default:0.02)] [--cluster CLUSTER(default:0.3)] [--nmax NMAX(default:10)] DIR [DIR ...]
 
-# procedures and parameters
+## Procedures and parameters
 1. Given NMR data directories are walked through by mixedsets to search
    for a 'title' and a XML file for molecular ID and peak list,
    respectively. If the title file is empty, molecular ID uses
@@ -24,10 +24,10 @@ python mixedsets.py [-h] [--merge MERGE(default:0.01)] [--remove REMOVE(default:
    [ threshold to cluster (--cluster):  0.300 ppm]
    [ max number of molecules in a cluster: 10]
 
-# example
+## Example
 ```python mixedsets.py example/```
 
-# example output
+## Example output
 <pre>
 NMR Peak Data
 PL109A06/80 MolId PL109A06/80  (19 peaks after merging 21)
