@@ -6,18 +6,18 @@ Mixedsets use quality threshold clustering algorithm to cluster NMR chemical shi
 python mixedsets.py [-h] [--merge MERGE(default:0.01)] [--remove REMOVE(default:0.02)] [--cluster CLUSTER(default:0.3)] [--nmax NMAX(default:10)] DIR [DIR ...]
 
 # procedures and parameters
-... Given NMR data directories are walked through by mixedsets to search
+1. Given NMR data directories are walked through by mixedsets to search
    for a 'title' and a XML file for molecular ID and peak list,
    respectively. If the title file is empty, molecular ID uses
    the directory name instead.
-... A peak list defined in a XML file for each molecule
+2. A peak list defined in a XML file for each molecule
    is pre-processed in order to merge J splitted peaks.
    [ threshold to merge   (--merge)  :  0.010 ppm]
-... Peaks considered as overlapped between two molecules are
+3. Peaks considered as overlapped between two molecules are
    removed from both peak lists during analysis of trial clusters.
    At least one peak must remain for each molecule in a cluster.
    [ threshold to remove  (--remove) :  0.020 ppm]
-... Molecules are clustered such that a distance between any two
+4. Molecules are clustered such that a distance between any two
    non-overlapped peaks be farther than a given threshold in ppm.
    At least one unique and non-overlapped peak exists for each
    and every molecule in a cluster when mixed for screening.
