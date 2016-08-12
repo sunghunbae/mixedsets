@@ -6,18 +6,18 @@ Mixedsets use quality threshold clustering algorithm to cluster NMR chemical shi
 python mixedsets.py [-h] [--merge MERGE(default:0.01)] [--remove REMOVE(default:0.02)] [--cluster CLUSTER(default:0.3)] [--nmax NMAX(default:10)] DIR [DIR ...]
 
 # procedures and parameters
-0. Given NMR data directories are walked through by mixedsets to search
+... Given NMR data directories are walked through by mixedsets to search
    for a 'title' and a XML file for molecular ID and peak list,
    respectively. If the title file is empty, molecular ID uses
    the directory name instead.
-1. A peak list defined in a XML file for each molecule
+... A peak list defined in a XML file for each molecule
    is pre-processed in order to merge J splitted peaks.
    [ threshold to merge   (--merge)  :  0.010 ppm]
-2. Peaks considered as overlapped between two molecules are
+... Peaks considered as overlapped between two molecules are
    removed from both peak lists during analysis of trial clusters.
    At least one peak must remain for each molecule in a cluster.
    [ threshold to remove  (--remove) :  0.020 ppm]
-3. Molecules are clustered such that a distance between any two
+... Molecules are clustered such that a distance between any two
    non-overlapped peaks be farther than a given threshold in ppm.
    At least one unique and non-overlapped peak exists for each
    and every molecule in a cluster when mixed for screening.
@@ -25,9 +25,10 @@ python mixedsets.py [-h] [--merge MERGE(default:0.01)] [--remove REMOVE(default:
    [ max number of molecules in a cluster: 10]
 
 # example
-python mixedsets.py example/
+```python mixedsets.py example/```
 
 # example output
+<pre>
 NMR Peak Data
 PL109A06/80 MolId PL109A06/80  (19 peaks after merging 21)
      0.703
@@ -80,3 +81,4 @@ PL109C06/40               7.173      7.187
 Set  2 (min peak distance:        n/a) 1 molecules
 PL109B06/181              2.500      6.529      6.659      7.114      7.126 
 PL109B06/181
+</pre>
