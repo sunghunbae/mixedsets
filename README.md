@@ -1,8 +1,15 @@
 # mixedsets
 MixedSets calculates a series of mixed sets of molecules based on their NMR chemical shifts. It uses the quality threshold clustering algorithm to cluster NMR chemical shifts dataset in order to resolve chemical shift overlap problem when you mix multiple compounds in a single NMR tube in a library screen.
 
-## Usage 
-python mixedsets.py [-h] [--merge MERGE(default:0.01)] [--remove REMOVE(default:0.02)] [--cluster CLUSTER(default:0.3)] [--nmax NMAX(default:10)] DIR [DIR ...]
+## Usage
+<pre>
+   python mixedsets.py  [-h] 
+                        [--merge MERGE(default:0.01)] 
+                        [--remove REMOVE(default:0.02)] 
+                        [--cluster CLUSTER(default:0.3)] 
+                        [--nmax NMAX(default:10)] 
+                        DIR [DIR ...]
+</pre>
 
 ## Procedures and parameters
 1. Given NMR data directories are walked through by mixedsets to search
